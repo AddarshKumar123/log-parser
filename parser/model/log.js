@@ -27,6 +27,15 @@ const logSchema = new mongoose.Schema({
     },
     timestamp:{
         type:String
+    },
+    parsedHash:{
+        type:String
+    },
+    issueType:{
+        type:String
+    },
+    clusterId:{
+        type:String
     }
 
 })
